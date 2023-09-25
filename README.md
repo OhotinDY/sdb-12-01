@@ -78,7 +78,6 @@ employee (
 )
 
 project_asignement (
- id SERIAL PRIMARY KEY
  project_id INT REFERENCES project(id) NOT NULL 
  employee_id INT REFERENCES employee(id) NOT NULL 
 )
